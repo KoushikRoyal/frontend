@@ -21,7 +21,7 @@ const LoginSignup = () => {
     console.log("Login Function Executed",formData)
 
     let responseData;
-    await fetch('http://localhost:4000/login',
+    await fetch('https://backend-icpm.onrender.com/login',
       {
         method:'POST',
         headers:
@@ -45,7 +45,7 @@ const LoginSignup = () => {
   const signup=async ()=>{
     console.log("Signup Function Executed",formData)
     let responseData;
-    await fetch('http://localhost:4000/signup',
+    await fetch('https://backend-icpm.onrender.com/signup',
       {
         method:'POST',
         headers:
