@@ -45,7 +45,7 @@ const LoginSignup = () => {
   const signup=async ()=>{
     console.log("Signup Function Executed",formData)
     let responseData;
-    await fetch('https://backend-tamx.onrender.comsignup',
+    await fetch('https://backend-tamx.onrender.com/signup',
       {
         method:'POST',
         headers:
